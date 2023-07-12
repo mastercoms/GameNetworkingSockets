@@ -4,7 +4,7 @@ include(CheckSymbolExists)
 include(CMakePushCheckState)
 include(GNUInstallDirs)
 
-find_package(Protobuf CONFIG REQUIRED)
+find_package(Protobuf CONFIG REQUIRED) 
 find_package(Threads REQUIRED)
 
 set(GNS_COMMON_PROTOS
